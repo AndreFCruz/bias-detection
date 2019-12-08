@@ -2,6 +2,14 @@
 
 State of the art _propaganda_ and _hyperpartisan_ news detection with PyTorch.
 
+## Some cool plots
+> Attention plots: blue indicates sentence-wise attention, and red token-wise.
+
+| Example Hyperpartisan Article | Example Mainstream Article |
+|:-:|:-:|
+| ![Hyperpartisan Article](./imgs/176-single-col.png) | ![Mainstream Article](./imgs/481-single-col.png) |
+
+
 ## Getting started
 On a new **Python3.7** virtualenv, run:
 ```
