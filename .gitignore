@@ -1,0 +1,30 @@
+# virtualenv files
+bin/
+include/
+lib/
+etc/
+share/
+.Python
+pyvenv.cfg
+lib64
+
+# Large files
+HyperpartisanNewsDataset/
+HyperpartisanNewsCorpora/
+Embeddings/
+
+# System files
+*.DS_Store
+
+# Cache folders
+**/__pycache__/
+**/*cache*
+**/.ipynb_checkpoints/
+**/*.pyc
+
+# Other folders
+unorganized/
+
+# temporarily here
+checkpoints/*
+generated_data/*
