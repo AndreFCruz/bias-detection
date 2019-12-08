@@ -24,6 +24,7 @@ Embeddings/
 
 # Other folders
 unorganized/
+.vscode/
 
 # temporarily here
 checkpoints/*
