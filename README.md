@@ -1,8 +1,56 @@
-# hyperpartisan-news-detection
+# Bias Detection in Texts
+
+State of the art _propaganda_ and _hyperpartisan_ news detection with PyTorch.
+
+## Getting started
+On a new **Python3.7** virtualenv, run:
+```
+pip install -r requirements.txt
+```
+
+## Citing
+Code used in the following papers:
+
+* On Sentence Representations for Propaganda Detection: From Handcrafted Features to Word Embeddings [link](https://www.aclweb.org/anthology/D19-5015/):
+```
+@inproceedings{ferreira-cruz-etal-2019-sentence,
+    title = "On Sentence Representations for Propaganda Detection: From Handcrafted Features to Word Embeddings",
+    author = "Ferreira Cruz, Andr{\'e}  and
+      Rocha, Gil  and
+      Lopes Cardoso, Henrique",
+    booktitle = "Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Propaganda",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D19-5015",
+    doi = "10.18653/v1/D19-5015",
+    pages = "107--112",
+}
+```
+
+* Team Fernando-Pessa at SemEval-2019 Task 4: Back to Basics in Hyperpartisan News Detection [link](https://www.aclweb.org/anthology/S19-2173/):
+```
+@inproceedings{cruz-etal-2019-team,
+    title = "Team Fernando-Pessa at {S}em{E}val-2019 Task 4: Back to Basics in Hyperpartisan News Detection",
+    author = "Cruz, Andr{\'e}  and
+      Rocha, Gil  and
+      Sousa-Silva, Rui  and
+      Lopes Cardoso, Henrique",
+    booktitle = "Proceedings of the 13th International Workshop on Semantic Evaluation",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/S19-2173",
+    doi = "10.18653/v1/S19-2173",
+    pages = "999--1003",
+}
+```
 
 ## Usage
 
-#### train_nn.py
+* train_nn.py
 ```
 usage: train_nn.py [-h] [--news-dir DIR_PATH] [--ground-truth-dir DIR_PATH]
                    [--val-news-dir DIR_PATH] [--val-ground-truth-dir DIR_PATH]
@@ -79,7 +127,7 @@ optional arguments:
 ```
 
 
-#### serialize_pytorch_dataset.py
+* serialize_pytorch_dataset.py
 ```
 usage: serialize_pytorch_dataset.py [-h] --news-dir DIR_PATH
                                     [--ground-truth-dir DIR_PATH] --save-path
@@ -116,7 +164,7 @@ optional arguments:
 ```
 
 
-#### generate_token_embeddings.py
+* generate_token_embeddings.py
 ```
 usage: generate_token_embeddings.py [-h] --articles-dir ARTICLES_DIR
                                     --embeddings-path EMBEDDINGS_PATH
@@ -125,7 +173,7 @@ usage: generate_token_embeddings.py [-h] --articles-dir ARTICLES_DIR
 generate_token_embeddings.py: error: the following arguments are required: --articles-dir, --embeddings-path
 ```
 
-#### evaluate_nn.py
+* evaluate_nn.py
 
 ```
 usage: evaluate_nn.py [-h] --input-dir DIR_PATH [--output-dir DIR_PATH]
@@ -140,14 +188,11 @@ evaluate_nn.py: error: the following arguments are required: --input-dir
 
 ```
 
-#### train_kfold.py
+* train_kfold.py
 
 ## Scripts from the old sk-learn model
 
-#### generate_dataset.py
-
-#### grid_search.py
-
-#### evaluate.py
-
-#### train.py
+* generate_dataset.py
+* grid_search.py
+* evaluate.py
+* train.py
