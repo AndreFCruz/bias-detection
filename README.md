@@ -18,43 +18,30 @@ pip install -r requirements.txt
 
 ## Citing
 Code used in the following papers:
+* [On Document Representations for Detection of Biased News Articles](https://dl.acm.org/doi/abs/10.1145/3341105.3374025)
+* [On Sentence Representations for Propaganda Detection: From Handcrafted Features to Word Embeddings](https://www.aclweb.org/anthology/D19-5015/)
+* [Team Fernando-Pessa at SemEval-2019 Task 4: Back to Basics in Hyperpartisan News Detection](https://www.aclweb.org/anthology/S19-2173/)
 
-* On Sentence Representations for Propaganda Detection: From Handcrafted Features to Word Embeddings [link](https://www.aclweb.org/anthology/D19-5015/):
+Bibtex (for latest paper):
 ```
-@inproceedings{ferreira-cruz-etal-2019-sentence,
-    title = "On Sentence Representations for Propaganda Detection: From Handcrafted Features to Word Embeddings",
-    author = "Ferreira Cruz, Andr{\'e}  and
-      Rocha, Gil  and
-      Lopes Cardoso, Henrique",
-    booktitle = "Proceedings of the Second Workshop on Natural Language Processing for Internet Freedom: Censorship, Disinformation, and Propaganda",
-    month = nov,
-    year = "2019",
-    address = "Hong Kong, China",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/D19-5015",
-    doi = "10.18653/v1/D19-5015",
-    pages = "107--112",
+@inproceedings{10.1145/3341105.3374025,
+  author = {Cruz, Andr\'{e} Ferreira and Rocha, Gil and Cardoso, Henrique Lopes},
+  title = {On Document Representations for Detection of Biased News Articles},
+  year = {2020},
+  isbn = {9781450368667},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3341105.3374025},
+  doi = {10.1145/3341105.3374025},
+  booktitle = {Proceedings of the 35th Annual ACM Symposium on Applied Computing},
+  pages = {892–899},
+  numpages = {8},
+  keywords = {deep learning, bias detection, hyperpartisan news, document representation, natural language processing},
+  location = {Brno, Czech Republic},
+  series = {SAC ’20}
 }
 ```
 
-* Team Fernando-Pessa at SemEval-2019 Task 4: Back to Basics in Hyperpartisan News Detection [link](https://www.aclweb.org/anthology/S19-2173/):
-```
-@inproceedings{cruz-etal-2019-team,
-    title = "Team Fernando-Pessa at {S}em{E}val-2019 Task 4: Back to Basics in Hyperpartisan News Detection",
-    author = "Cruz, Andr{\'e}  and
-      Rocha, Gil  and
-      Sousa-Silva, Rui  and
-      Lopes Cardoso, Henrique",
-    booktitle = "Proceedings of the 13th International Workshop on Semantic Evaluation",
-    month = jun,
-    year = "2019",
-    address = "Minneapolis, Minnesota, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/S19-2173",
-    doi = "10.18653/v1/S19-2173",
-    pages = "999--1003",
-}
-```
 
 ## Usage
 
